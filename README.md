@@ -1,25 +1,20 @@
 #Ejercicio - 6
 
-Inicio: Evaluar si el usuario puede dormir
+Inicio: Evaluar si tenemos problemas
 
 ## Ingreso datos
-- weekday
-- vacation
-- puede_dormir
-
+- aSmile
+- bSmile
+- resultado
 ## Proceso
 
-Obtener valor weekday
-Obtener valor vacation
+Obtener valor aSmile(s/n)
+Obtener valor bSmile(s/n)
 
-Si vacation es verdadero
-	Mostrar 1 //Dormimos
+Si aSmile == bSmile es verdadero 
+	Mostrar 1 //problemass
 Si no
-	Si weekday es verdadero
-		Mostrar 0 //No Dormimos
-	Si no
-		Mostrar 1 //Dormimos
-	Fin si
+	Mostrar 0
 Fin si
 
 *Fin*
